@@ -12,8 +12,8 @@ import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Footer from "./Components/Footer";
 import "./App.css";
-
-function App() {
+import './css/bootstrap.min.css'
+ function App() {
   return (
     <>
       <Router>

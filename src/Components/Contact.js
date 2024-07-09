@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { submitContactForm } from "../Api";
+import { submitContactForm } from "../service/Api";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 

@@ -3,9 +3,7 @@ import Blogs from "./BlogsSection";
 import Services from "./Services";
 import AboutPage from "./AboutPage";
 import ContactForm from "./Contact";
-import Header from "./Header";
-import Footer from "./Footer";
-
+ 
 function Home() {
   return (
     <div>

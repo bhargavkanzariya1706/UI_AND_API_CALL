@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { getAllBlogs } from "../Api";
- 
+import { getAllBlogs } from "../service/Api";
+  
 const Blogs = () => {
   const [blogs, setBlogs] = useState([]);
 

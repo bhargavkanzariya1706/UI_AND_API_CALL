@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from "react";
- import { getSettings } from "../Api";
+import { getSettings } from "../service/Api";
 import Fimge from "../img/Bitmaplogo.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
   const [footerDetails, setFooterDetails] = useState({});
-  // console.log("footerDetails :", footerDetails);
   useEffect(() => {
     const fetchSettings = async () => {
       const data = await getSettings();
@@ -61,31 +60,31 @@ const Footer = () => {
           </div>
           <hr className="mb-4 text-black" />
           <div className="container">
-          <div className="row text-md-start">
-            <div className="col-lg-2  mx-auto ">
-              <img src={Fimge} />
-            </div>
-            <div className="footer-nav col-md-6  mx-auto">
-              <ul>
-                <li>
-                  <Link to="/">Home</Link>
-                </li>
-                <li>
-                  <Link to="/service">Services</Link>
-                </li>
-                <li>
-                  <Link to="/aboutus">About Us</Link>
-                </li>
-                <li>
-                  <Link to="/blogs">Blogs</Link>
-                </li>
-                <li>
-                  <Link to="/contact">Contact</Link>
-                </li>
-              </ul>
+            <div className="row text-md-start">
+              <div className="col-lg-2  mx-auto ">
+                <img src={Fimge} />
+              </div>
+              <div className="footer-nav col-md-6  mx-auto">
+                <ul>
+                  <li>
+                    <Link to="/">Home</Link>
+                  </li>
+                  <li>
+                    <Link to="/service">Services</Link>
+                  </li>
+                  <li>
+                    <Link to="/aboutus">About Us</Link>
+                  </li>
+                  <li>
+                    <Link to="/blogs">Blogs</Link>
+                  </li>
+                  <li>
+                    <Link to="/contact">Contact</Link>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
         </div>
       </footer>
     </>

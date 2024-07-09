@@ -36,7 +36,7 @@ function Header() {
                   How much <br />
                   could you save?
                 </h1>
-                <p class="main5">
+                <p className="main5">
                   Answer the questions below to get a fixed price <br />{" "}
                   quotation for us to take your accountancy hassles away
                   <br />
