@@ -1,8 +1,6 @@
 import React from "react";
 import About from "./../img/About.png"
-import Header from "./Header";
-import Footer from "./Footer";
-
+ 
 function AboutPage() {
   return (
     <div>
