@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { getAllBlogs } from "../Api";
-import Header from "./Header";
-import Footer from "./Footer";
-
+ 
 const Blogs = () => {
   const [blogs, setBlogs] = useState([]);
 
