@@ -36,3 +36,172 @@
     transform: rotate(360deg);
   }
 }
+
+/*................................... css in contact page ..................................................................... */
+
+.contact-section {
+  padding: 40px;
+  /* background-color: #5cbde466; */
+  margin-top: 50px;
+      
+ }
+
+
+
+/* .contact-header {
+   text-align: center;
+} */
+
+.contact-form {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  outline: none;
+  background: none;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  margin: 0 0 10px;
+  border-bottom: 2px solid #90a4ae;
+  border-radius: 4px;
+}
+
+.contact-form .inptBtn {
+  padding: 10px 20px;
+  background-color: #00b055;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* ....Blogs Css........................... */
+
+.Blogs-header {
+  padding: 20px;
+  /* font-size: 30px; */
+  font-weight: 300;
+}
+.blog-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  /* padding: 40px; */
+  padding: 10%;
+  /* background-color: #f9f9f9; */
+  background-image: url("/src/img/Rectangletestimonial-bg.png");
+  background-size: cover;
+}
+
+.blog-post {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.blog-image {
+  width: 100%;
+  height: auto;
+}
+
+.blog-details {
+  padding: 20px;
+  flex: 1;
+}
+
+.blog-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.blog-date,
+.blog-author {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.blog-content {
+  font-size: 1em;
+  color: #333333;
+}
+
+/* ...............................................header css.................................................................... */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.header img {
+  margin: 0;
+}
+.header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-section {
+  padding: 48px;
+}
+
+/* ................footer........... */
+
+.footer-nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 60px;
+}
+.footer-nav a{
+  text-decoration: none;
+  color: #00b055;
+}
+.blockquote-footer {
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+  font-size: 0.875em;
+  color: #6c757d;
+}
+.blockquote-footer::before {
+  content: "— ";
+}
+
+.border-left {
+  border-left: 2px solid gray;
+  padding-left:20px;
+}
+
+/* ............................................................................................Services CSS................................ */

@@ -1,13 +1,162 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* ......................Header css.............................. */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.im {
+  width: 100%;
+}
+
+.nav-logo {
+  width: 100px;
+}
+
+.nav-contact {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+.nav-link :active {
+  color: burlywood;
+}
+
+.a1 {
+  color: black;
+}
+
+.a2 {
+  color: black;
+}
+
+.main {
+  background-image: url(./img/Pathbg.png);
+  background-size: cover;
+}
+.button {
+  padding: 5px 23px 5px 23px;
+  opacity: 0px;
+  border-radius: 50px;
+  color: white;
+  background-color: orangered;
+  border: none;
+}
+
+.main1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main2 {
+  /*border: 1px solid;
+  */
+  text-align: center;
+  padding: 20px 25px 20px 25px;
+  width: 400px;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+  border-radius: 8px;
+}
+
+.main3 {
+  font-size: 20px;
+}
+
+.button1 {
+  border-radius: 20px;
+  padding: 5px 25px;
+  color: white;
+  background-color: orangered;
+  border: none;
+  margin: 10px;
+}
+
+.main4 {
+  font-size: small;
+}
+
+.main5 {
+  font-size: small;
+}
+
+.main {
+  padding: 20px;
+}
+
+/* ..........................Services CSs................................ */
+
+.main9 {
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.select1 {
+  text-align: center;
+  padding: 30px;
+}
+
+.select2 {
+  padding: 30px;
+  width: 30%;
+  height: auto;
+}
+
+.ps1 {
+  font-size: 12px;
+  line-height: 2;
+}
+
+.select3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  padding-left: 25px;
+}
+
+.btn {
+  width: 150px;
+  height: 35px;
+  border: none;
+  border-radius: 20px;
+  background-color: orangered;
+}
+
+.select4 {
+  width: 100%;
+  height: 500px;
+  background-image: url(./img/about-bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+}
+.sep {
+  font-size: small;
+}
+
+.img01 {
+  width: 70%;
+  margin-left: 20%;
 }
